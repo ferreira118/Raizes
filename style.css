@@ -976,6 +976,11 @@
          font-size: 38px;
     }
      .capa {
-         height: 330px;
+         height: auto;
+         min-height: 0;
+    }
+     .capa img {
+         height: 240px;
+         min-height: 240px;
     }
 }
